@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.top {
+    width: 100vw;
+    height: 10vh;
+    background-color: grey;
+}
+
+.left {
+    width: 10vw;
+    height: 90vh;
+    background-color: lightgrey;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.right {
+    width: 10vw;
+    height: 90vh;
+    background-color: lightgrey;
+    float: right;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.bottom {
+    background-color: black;
+    height: 58px;
+    width: 100%;
+    left: 80px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+
+    
+   
+}

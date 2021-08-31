@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-size: 24px;
+}
+
+.blue-box {
+    width: 80px;
+    height: 80px;
+    background-color: dodgerblue;
+    margin-left: 30px;
+}
+
+.white {
+    height: 201.75px;
+    width: 90%;
+    padding: 30px;
+}
+
+.blue {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 107px;
+}
+
+.aqua {
+    background-color: aqua;
+    width: 100%;
+    height: 107px;
+}
+
+.olive {
+    background-color: rgb(185, 224, 105);
+    width: 100%;
+    height: 107px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 100%;
+    height: 107px;
+}
